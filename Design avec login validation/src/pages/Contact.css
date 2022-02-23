@@ -1,0 +1,12 @@
+.error-msg{
+    font-size:12px;
+    width:100%;
+    color:red;
+}
+.success-msg{
+    width:100%;
+    background-color:#0f834d;
+    color:#fff;
+    font-wieght:600;
+    padding:20px;
+}
