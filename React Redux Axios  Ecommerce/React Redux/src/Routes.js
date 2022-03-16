@@ -12,29 +12,27 @@ import Payment from './component/Payement';
 const Routes = () => {
     let history = useHistory();
     let location = useLocation();
-    useEffect(() => {
+
+
+    useEffect( () => {
         if (
             !localStorage.getItem('token')
-            && location.pathname != "/register"
-            && location.pathname != "/"
-            && location.pathname != "/produit"
-            && location.pathname != "/cart"
-            && location.pathname != "/about"
-            && location.pathname != "/contact"
-            && location.pathname != "/details/:id"
+            && location.pathname === "/payement"
         ) {
             history.push('/login')
         }
-    }, [location.pathname])
+    }, [localStorage.getItem('token'),location.pathname])
 
     useEffect(() => {
         if (localStorage.getItem('token')
-            && location.pathname == "/login"
-            || location.pathname == "/register"
+            && ( location.pathname === "/login"
+            || location.pathname === "/register")
         ) {
             history.push('/payement')
         }
-    }, [location.pathname])
+    }, [localStorage.getItem('token'),location.pathname])
+
+
     return (
         <div>
             <Switch>
@@ -44,8 +42,8 @@ const Routes = () => {
                 <Route path='/about' component={About} />
                 <Route path='/contact' component={Contact} />
                 <Route path='/cart' component={Cart} />
-                <Route path='/login' component={Login} />
                 <Route path='/register' component={Register} />
+                <Route path='/login' component={Login} />
                 <Route path='/payement' component={Payment} />
             </Switch>
         </div>

@@ -12,7 +12,7 @@ const App = () => {
 
   const getData = async (value = 0) => {
     let dvalue = value === 0 ? page : value;
-    await axios.get(`http://127.0.0.1:8000/afficheProduit/${dvalue}`).then(function (response) {
+    await axios.get(`http://127.0.0.1:8000/api/afficheProduit/${dvalue}`).then(function (response) {
       setData(response.data.Donner);
       setTotalPage(response.data.totalPage);
       console.log("donner produit", response.data.Donner);

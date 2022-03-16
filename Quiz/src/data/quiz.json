@@ -1,0 +1,31 @@
+{
+    "data":[
+        {
+            "question":"Quelle est la capitale de Madagascar",
+            "choices": ["Fianarantsoa","Mahajanga","Antananarivo","Menabe"],
+            "answer": "Antananarivo"
+        },
+        {
+            "question":"Où habite Beckas",
+            "choices": ["Ambanidia","Manakambahiny","Alasora","Tsimbazaza"],
+            "answer": "Manakambahiny"
+        },        {
+            "question":"Quelle âge a Beckas",
+            "choices": ["20 ans","27 ans","24 ans","32 ans"],
+            "answer": "24 ans"
+        },
+        {
+            "question":"Quelle est la langage préferer de Beckas",
+            "choices": ["HTML","CSS","PHP","JAVASCRIPT"],
+            "answer": "PHP"
+        },        {
+            "question":"Quelle est la mention de beckas dans le diplome",
+            "choices": ["Passable","Assez-bien","Tres Bien","Bien"],
+            "answer": "Bien"
+        },        {
+            "question":"Beckas a déjas eu combien de copine?",
+            "choices": ["1","5","8","4"],
+            "answer": "5"
+        }
+    ]
+}

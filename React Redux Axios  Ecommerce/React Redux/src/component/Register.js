@@ -37,7 +37,7 @@ const Register = () => {
         setLoading(true);
         const data = { nom: nom, prenom: prenom, adresse: adresse, email: email, password: password, image: photo }
         Inscription(data).then(function (response) {
-            if (response.data.title == "success") {
+            if (response.data.title === "success") {
                 toast.success(response.data.message);
                 history.push("/login");
             }
