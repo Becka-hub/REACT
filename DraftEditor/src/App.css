@@ -1,0 +1,56 @@
+.rdw-editor-main {
+    background-color: #f1f1f1;
+    border: 1px solid rgb(218, 218, 218);
+    margin-bottom: 17px;
+    padding: 7px 7px 7px 7px;
+    line-height: 27px;
+    height: 120px;
+  }
+  .rdw-dropdown-optionwrapper {
+    width: 100%!important;
+  }
+  .public-DraftEditor-content {
+    height: auto;
+  }
+  .public-DraftStyleDefault-block {
+    margin: 0 0!important;
+  }
+  .rdw-editor-main {
+    line-height: 20px!important;
+  }
+  .public-DraftStyleDefault-ol, .public-DraftStyleDefault-ul {
+    margin: 10px 0!important;
+    padding: 0;
+  }
+  /* .rdw-embedded-wrapper{
+      display: none!important;
+  }
+  .rdw-image-wrapper{
+    display: none!important;
+  }
+  .rdw-emoji-wrapper{
+    display: none!important;
+  }
+  .rdw-remove-wrapper{
+    display: none!important; 
+  }
+  .rdw-history-wrapper{
+    display: none!important; 
+  }
+  .rdw-option-disabled{
+    display: none!important; 
+  }
+  .rdw-dropdown-selectedtext{
+      color: rgb(44, 44, 44)!important;
+      border-radius: 8px;
+      text-decoration: none!important;
+  }
+
+
+  .rdw-text-align-wrapper {
+    display: none!important;
+  }
+  .rdw-list-wrapper {
+    display: none!important;
+  } */
+  
