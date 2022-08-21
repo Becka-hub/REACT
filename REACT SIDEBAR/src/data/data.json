@@ -1,0 +1,49 @@
+[
+    {
+        "title" : "Général",
+        "icon" : "fa fa-gear",
+        "children" : [
+            {
+                "title" : "Home",
+                "icon" : "fa fa-home",
+                "path" : "/"
+            },
+            {
+                "title" : "About",
+                "icon" : "fa fa-desktop",
+                "path" : "/about"
+            }
+        ]
+    },
+    {
+        "title" : "Profile",
+        "icon" : "fa fa-users",
+        "path" : "/profile"
+    },
+    {
+        "title" : "Marketing",
+        "icon" : "fa fa-tags",
+        "children" : [
+            {
+                "title" : "Analitics",
+                "icon" : "fa fa-signal",
+                "path" : "/analitic"
+            },
+            {
+                "title" : "Gestion",
+                "icon" : "fa fa-tasks",
+                "path" : "/gestion"
+            }
+        ]
+    },
+    {
+        "title" : "Contact",
+        "icon" : "fa fa-phone",
+        "path" : "/contact"
+    },
+    {
+        "title" : "Deconnexion",
+        "icon" : "fa fa-power-off",
+        "path" : "/deconnexion"
+    }
+]

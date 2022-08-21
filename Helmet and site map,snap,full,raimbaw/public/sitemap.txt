@@ -1,0 +1,5 @@
+http://127.0.0.1:3000/
+http://127.0.0.1:3000/client/profile
+http://127.0.0.1:3000/client/reservation
+http://127.0.0.1:3000/fournisseur/presentation
+http://127.0.0.1:3000/fournisseur/Service
